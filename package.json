@@ -1,0 +1,24 @@
+{
+  "name": "uploadservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cloudfront-sign": "^2.2.0",
+    "aws-sdk": "^2.884.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-form-data": "^2.0.16",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.2",
+    "os": "^0.1.1",
+    "path": "^0.12.7"
+  }
+}
