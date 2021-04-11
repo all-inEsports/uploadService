@@ -7,7 +7,7 @@ const crypto = require('crypto');
 const formData = require("express-form-data");
 const path = require('path');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const os = require('os');
 app.listen(port, () => {
     console.log('Server listening on port %s.', port);
